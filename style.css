@@ -127,3 +127,21 @@
 .brand-photo-note .lotion-image-stage{background:#f7eee0!important}
 .brand-photo-note .lotion-image-stage img{mix-blend-mode:lighten!important;filter:none!important;opacity:1!important}
 @media(max-width:800px){.hero.hero-final .hero-grid{padding-top:26px!important;padding-bottom:30px!important}.hero.hero-final .hero-visual{grid-template-rows:260px 150px!important;gap:10px!important;height:auto!important;min-height:0!important}.hero.hero-final .hero-mood{height:260px!important;max-height:260px!important}.hero.hero-final .hero-product-stand{height:150px!important;padding:5px 8px!important}.hero.hero-final .hero-product-line{height:120px!important}.hero.hero-final .hero-product-line img{height:112px!important;max-height:112px!important}.hero.hero-final .hero-product-line img.bottle-small{height:83px!important;max-height:83px!important}.routine-visual-v4{padding:15px 12px;grid-template-columns:1fr;gap:8px}.routine-item{padding:13px}.routine-arrow{transform:rotate(90deg);font-size:20px}.brand-photo-note .lotion-image-stage{width:120px!important;height:180px!important}}
+
+/* Hero portrait + floating official serums: 2026-10-29 */
+.hero.hero-final .hero-visual{display:block!important;position:relative!important;height:535px!important;min-height:535px!important;overflow:visible!important;border-radius:26px!important;background:transparent!important;box-shadow:none!important}
+.hero.hero-final .hero-mood{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;max-height:none!important;object-fit:cover!important;object-position:65% 42%!important;border-radius:26px!important;z-index:0!important}
+.hero.hero-final .hero-product-stand{position:absolute!important;left:3%!important;right:3%!important;top:auto!important;bottom:0!important;width:94%!important;height:245px!important;min-height:0!important;padding:0!important;display:block!important;background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;backdrop-filter:none!important;z-index:3!important;pointer-events:none!important}
+.hero.hero-final .hero-product-stand>p{display:none!important}
+.hero.hero-final .hero-product-line{position:relative!important;display:flex!important;align-items:flex-end!important;justify-content:space-evenly!important;gap:8px!important;width:100%!important;height:100%!important;padding:0 5% 12px!important;background:transparent!important}
+.hero.hero-final .hero-product-line img{position:relative!important;inset:auto!important;display:block!important;width:29%!important;height:240px!important;max-height:240px!important;object-fit:contain!important;transform:none!important;filter:drop-shadow(0 14px 9px rgba(26,37,26,.28))!important}
+.hero.hero-final .hero-product-line img.bottle-small{width:18%!important;height:160px!important;max-height:160px!important;align-self:flex-end!important}
+.hero.hero-final .hero-grid{align-items:center!important}
+@media(max-width:800px){
+.hero.hero-final .hero-visual{height:440px!important;min-height:440px!important}
+.hero.hero-final .hero-mood{height:100%!important;max-height:none!important;object-position:67% center!important}
+.hero.hero-final .hero-product-stand{height:177px!important;bottom:0!important}
+.hero.hero-final .hero-product-line{height:177px!important;padding:0 3% 8px!important}
+.hero.hero-final .hero-product-line img{height:172px!important;max-height:172px!important;width:30%!important}
+.hero.hero-final .hero-product-line img.bottle-small{height:112px!important;max-height:112px!important;width:20%!important}
+}
