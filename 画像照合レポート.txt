@@ -1,0 +1,15 @@
+EPORASHE 美容液比較LP　画像照合レポート（2026-10-29）
+
+このZIPにある index.html は以下の正しい画像を参照しています。
+・assets/rempli_hand_official.png：リンプルの手のひら写真
+・assets/rempli_drop_official.png：リンプルの緑ボトルとスポイト写真
+・assets/hero_visual.png：指定人物画像
+・assets/diagnosis_visual.png：美容液診断用の人物写真
+・assets/hon_application_illustration.webp：ホニオールⅡの生成イメージ（実物ではない旨の表記）
+
+GitHubの公開リポジトリでは、上記のうち最初の4画像が未アップロードであることを確認しました。
+このZIPはファイル一式を同梱していますが、GitHubにはまだ未反映です。
+GitHubのmainブランチへアップロードする際はZIPファイル自体でなく、展開した全ファイルをアップロードしてください。
+
+確認済み：ローカル参照画像の存在、ZIP内パス、指定写真の目視確認。
+未確認：GitHub Pages上のモバイルブラウザ表示、診断のブラウザ操作、薬事審査。
