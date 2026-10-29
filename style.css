@@ -36,3 +36,34 @@
 .usage-photo-strip figure{min-width:0;margin:0}
 .usage-photo-strip img{width:100%;height:auto;aspect-ratio:1/1;object-fit:cover}
 @media(max-width:680px){.usage-photo-strip{grid-template-columns:1fr;gap:18px}.usage-photo-strip img{aspect-ratio:4/3}}
+
+/* 2026-10-29 editorial refresh: display enhancements, retain actual product images */
+.hero{position:relative;isolation:isolate;overflow:hidden;background:radial-gradient(ellipse at 75% 18%,#e6f1e8 0,transparent 39%),radial-gradient(ellipse at 90% 80%,#d6e9e8 0,transparent 31%),linear-gradient(112deg,#fffaf2 0%,#f0f6ef 54%,#f7f0e3 100%)}
+.hero:before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(circle at 91% 16%,rgba(255,255,255,.9) 0 7px,transparent 9px),radial-gradient(circle at 69% 81%,rgba(255,255,255,.8) 0 12px,transparent 15px),radial-gradient(circle at 51% 34%,rgba(255,255,255,.55) 0 19px,transparent 23px)}
+.hero:after{content:"";position:absolute;right:-40px;top:-50px;width:40%;height:95%;opacity:.35;pointer-events:none;background:repeating-conic-gradient(from 20deg at 100% 0%,transparent 0 18deg,#c7ddc4 19deg 20deg,transparent 21deg 42deg);clip-path:ellipse(58% 70% at 100% 15%)}
+.hero .bottles{background:radial-gradient(ellipse at 50% 70%,#ffffffa6 0,transparent 65%);border-radius:36px;filter:drop-shadow(0 16px 16px #516b5930)}
+.hero .bottles img{object-fit:contain;filter:drop-shadow(0 15px 18px #25312a26)}
+.hero .hero-chips span{background:#fffc;border-color:#bdd0c2}
+section{position:relative}
+.section-head h2{letter-spacing:.055em}
+.diagram-banner-v2{background:linear-gradient(130deg,#f2f8ef,#fbf4e9);border:1px solid #dfe7d9;box-shadow:0 14px 45px #4c65400c;border-radius:24px;overflow:hidden}
+.diagram-banner-v2 img{width:100%;display:block;object-fit:contain}
+.brand-photo-note-v2{background:linear-gradient(110deg,#fff6eb,#f0f5ee);border:1px solid #e7e8da;box-shadow:0 16px 38px #455b4712;overflow:hidden}
+.brand-photo-note-v2 .lotion-cutout{object-fit:contain;background:radial-gradient(ellipse at center,#fff6e5 0,#f8e6cb 55%,#eef2e9 100%);mix-blend-mode:screen}
+.quiz-intro-v2{padding:18px 22px;border-radius:28px;background:linear-gradient(120deg,#fffaf1a9,#e9f1e7aa);border:1px solid #e2e9da}
+.mini-illustration-new{position:relative;background:radial-gradient(circle,#fff,#ecf3e9);box-shadow:0 8px 24px #607a5a25;display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:150px;min-height:150px;border:1px solid #c8dcc8;border-radius:50%}
+.mini-illustration-new .drop-symbol{font:56px Georgia,serif;color:#ad9470;line-height:1}
+.mini-illustration-new .mini-skin{font-size:11px;line-height:1.5;text-align:center;color:#566e59}
+.diagnosis{background:radial-gradient(circle at 9% 6%,#fef9ef,transparent 36%),linear-gradient(180deg,#eef6ed,#f9f8f2)}
+.quiz{border-radius:26px;box-shadow:0 20px 45px #647b5c15}
+.texture-real-grid-v2 figure{overflow:hidden;background:#fff;border:1px solid #e5e7dd;box-shadow:0 14px 34px #63756317}
+.texture-real-grid-v2 figure img{object-fit:cover;aspect-ratio:1.23}
+.texture-real-grid-v2 figure:nth-child(1){background:#faf3e6}
+.texture-real-grid-v2 figure:nth-child(2){background:#eaf5ef}
+.texture-real-grid-v2 figure:nth-child(3){background:#fbf3e9}
+.usage-photo-strip-v2 figure{overflow:hidden;background:#fff;box-shadow:0 12px 28px #586c571c;border:1px solid #e4e8da}
+.usage-photo-strip-v2 img{aspect-ratio:1.35;object-fit:cover}
+#texture{background:radial-gradient(circle at 15% 20%,#fff9e4,transparent 40%),linear-gradient(115deg,#f2f6ed,#f8eee7)!important}
+#routine{background:linear-gradient(170deg,#fffaf3,#f0f6ee)}
+#products .quick-choice a{box-shadow:0 10px 28px #5a786110}
+@media(max-width:767px){.hero:after{display:none}.hero .bottles{min-height:230px}.diagram-banner-v2{border-radius:15px}.brand-photo-note-v2 .lotion-cutout{max-height:270px;object-fit:contain}.mini-illustration-new{min-width:100px;min-height:100px}.mini-illustration-new .drop-symbol{font-size:35px}.texture-real-grid-v2 figure img{aspect-ratio:1.5}.usage-photo-strip-v2 img{aspect-ratio:1.55}}
