@@ -95,3 +95,18 @@ section{position:relative}
 .rempli-hand-crop{width:100%;aspect-ratio:1.23;background-image:url('assets/rempli_texture.webp');background-repeat:no-repeat;background-size:300% auto;background-position:50% 60%;background-color:#fff}
 .usage-photo-strip-v2 .rempli-hand-crop{aspect-ratio:1.35;background-size:300% auto;background-position:50% 61%}
 @media(max-width:760px){.hero.hero-luxe{min-height:0;background:linear-gradient(130deg,#fffaf2dd,#eaf4e8de),url('assets/editorial_skin_mood.webp') 80% center/auto 100% no-repeat!important}.hero.hero-luxe .bottles{padding:8px}.quiz-intro-final{grid-template-columns:1fr!important}.quiz-intro-final>img{height:245px;min-height:0;object-position:center 32%}.quiz-intro-final>.quiz-intro-copy{padding:23px}.rempli-hand-crop{aspect-ratio:1.5}}
+
+/* Serum guide: usable hero with photo already stored on GitHub */
+.hero-20261029{background:linear-gradient(110deg,#faf8f1,#eaf4eb 58%,#f6efe4)!important;overflow:hidden}
+.hero-20261029 .hero-grid{grid-template-columns:minmax(0,1fr) minmax(0,1.14fr)!important;gap:28px;min-height:680px}
+.hero-20261029 .hero-copy{position:relative;z-index:4}
+.hero-20261029 .hero-points{display:grid;gap:5px;max-width:405px;margin:17px 0 20px;padding:14px 20px;background:#ffffffd9;border:1px solid #d9e5d7;border-radius:16px;box-shadow:0 8px 24px #5b735317}
+.hero-20261029 .hero-points b{font-size:13px;color:#41644c}
+.hero-20261029 .hero-points span{font-size:12px;padding-left:18px;position:relative}
+.hero-20261029 .hero-points span:before{content:"✓";position:absolute;left:0;color:#66826e}
+.hero-20261029 .hero-media{position:relative;min-height:520px;display:flex;align-items:center;justify-content:center}
+.hero-20261029 .hero-beauty{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;border-radius:30px;filter:none;box-shadow:0 20px 45px #5d795127}
+.hero-20261029 .hero-media:after{content:"";position:absolute;inset:0;border-radius:30px;background:linear-gradient(0deg,#ffffff83 0%,transparent 48%);pointer-events:none}
+.hero-20261029 .bottles{position:relative!important;z-index:2;width:94%;height:310px;margin-top:180px;border-radius:18px;background:#ffffff52;backdrop-filter:blur(2px);border:1px solid #ffffff9c}
+.hero-20261029 .bottles img{filter:drop-shadow(0 10px 13px #20392e55)}
+@media(max-width:800px){.hero-20261029 .hero-grid{grid-template-columns:1fr!important;gap:20px}.hero-20261029 .hero-media{min-height:350px}.hero-20261029 .bottles{height:240px;margin-top:100px}.hero-20261029 .hero-beauty{object-position:center 25%}}
