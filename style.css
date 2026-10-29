@@ -145,3 +145,32 @@
 .hero.hero-final .hero-product-line img{height:172px!important;max-height:172px!important;width:30%!important}
 .hero.hero-final .hero-product-line img.bottle-small{height:112px!important;max-height:112px!important;width:20%!important}
 }
+
+/* 2026-10-29 hero art direction — priority order: product, portrait, copy */
+.hero.hero-final{overflow:visible!important;background:linear-gradient(118deg,#fffdf7 0%,#f0f6ee 65%,#f7f1e7 100%)!important}
+.hero.hero-final .hero-grid{display:grid!important;grid-template-columns:minmax(0, .9fr) minmax(0,1.1fr)!important;gap:34px!important;max-width:1260px!important;min-height:0!important;padding:35px 30px 55px!important;align-items:center!important}
+.hero.hero-final .hero-copy{z-index:5!important;max-width:530px!important}
+.hero.hero-final .hero-copy h1{font-size:clamp(37px,4.1vw,57px)!important;line-height:1.45!important;margin:18px 0 19px!important}
+.hero.hero-final .hero-kicker{margin:7px 0 7px!important}
+.hero.hero-final .hero-copy .serif{margin:0 0 9px!important}
+.hero.hero-final .hero-copy .muted{display:none!important}
+.hero.hero-final .hero-chips{margin:14px 0!important}
+.hero-quick-summary{font-size:13px!important;line-height:1.75!important;color:#627265!important;margin:10px 0 19px!important}
+.hero.hero-final .hero-copy .cta{margin-top:4px!important;padding:14px 28px!important;box-shadow:0 9px 20px #5e805b24!important}
+.hero.hero-final .hero-visual{position:relative!important;display:block!important;min-height:0!important;height:510px!important;overflow:visible!important;isolation:isolate!important;border:0!important;border-radius:28px!important;box-shadow:none!important}
+.hero.hero-final .hero-mood{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;max-height:none!important;object-fit:cover!important;object-position:64% 42%!important;border-radius:28px!important;z-index:0!important;box-shadow:0 18px 38px #506d511c!important}
+.hero.hero-final .hero-product-stand{position:absolute!important;inset:auto auto -25px 3%!important;top:auto!important;right:auto!important;bottom:-25px!important;left:3%!important;width:73%!important;height:300px!important;min-height:0!important;background:transparent!important;border:0!important;box-shadow:none!important;border-radius:0!important;backdrop-filter:none!important;padding:0!important;z-index:3!important;pointer-events:none!important;display:block!important}
+.hero.hero-final .hero-product-stand>p{display:none!important}
+.hero.hero-final .hero-product-line{display:flex!important;align-items:flex-end!important;justify-content:space-between!important;gap:3px!important;width:100%!important;height:100%!important;padding:0!important;background:transparent!important}
+.hero.hero-final .hero-product-line img{position:relative!important;inset:auto!important;width:37%!important;height:285px!important;max-height:285px!important;object-fit:contain!important;transform:none!important;filter:drop-shadow(0 13px 10px #1b392c62)!important}
+.hero.hero-final .hero-product-line img.bottle-small{width:25%!important;height:181px!important;max-height:181px!important;align-self:flex-end!important}
+@media(max-width:800px){
+.hero.hero-final .hero-grid{display:flex!important;flex-direction:column!important;gap:22px!important;padding:25px 20px 45px!important}
+.hero.hero-final .hero-copy{max-width:100%!important}
+.hero.hero-final .hero-copy h1{font-size:clamp(34px,8vw,44px)!important;margin:14px 0!important}
+.hero.hero-final .hero-visual{height:440px!important;min-height:440px!important;width:100%!important}
+.hero.hero-final .hero-mood{height:100%!important;object-position:65% 42%!important}
+.hero.hero-final .hero-product-stand{height:215px!important;width:77%!important;left:1%!important;bottom:-20px!important}
+.hero.hero-final .hero-product-line img{height:200px!important;max-height:200px!important}
+.hero.hero-final .hero-product-line img.bottle-small{height:130px!important;max-height:130px!important}
+}
