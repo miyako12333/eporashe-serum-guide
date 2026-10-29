@@ -104,3 +104,51 @@
 .hero.hero-final .hero-fine-note{font-size:14px;color:#617566;line-height:1.8;margin:12px 0 19px!important}
 .hero.hero-final .hero-copy .cta{display:inline-flex!important;margin-top:6px!important;padding:15px 26px!important}
 @media(max-width:800px){.hero.hero-final .hero-grid{display:flex!important;flex-direction:column!important;gap:20px!important;padding:30px 18px 35px!important}.hero.hero-final .hero-visual{width:100%!important;height:auto!important;min-height:0!important}.hero.hero-final .hero-campaign-image{height:auto!important;max-height:none!important;aspect-ratio:3/2!important}.hero.hero-final .hero-copy h1{font-size:clamp(35px,7.8vw,50px)!important;margin:12px 0 18px!important}}
+
+/* Post-hero navigation: avoids repeating the three bottles shown in campaign hero */
+.serum-navigation{padding:40px 22px 48px;background:linear-gradient(180deg,#f3f7ef 0%,#fffaf3 100%);border-bottom:1px solid #e4e8dd}
+.serum-navigation-inner{max-width:1120px;margin:0 auto;text-align:center}
+.serum-navigation-overline{margin:0 0 9px;letter-spacing:.22em;color:#788b7a;font:600 12px Georgia,serif}
+.serum-navigation h2{margin:0;font-family:'Noto Serif JP',serif;font-size:clamp(23px,3vw,35px);font-weight:500;color:#32443c}
+.serum-navigation-desc{margin:11px 0 24px;color:#647269;font-size:14px}
+.serum-navigation-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.serum-navigation-item{position:relative;display:flex;flex-direction:column;text-align:left;gap:7px;padding:24px 44px 22px 23px;background:#fffdf9;border:1px solid #e1e6db;border-radius:18px;color:#32463a;text-decoration:none;box-shadow:0 8px 24px #55654d0b;transition:transform .2s,box-shadow .2s}
+.serum-navigation-item:hover{transform:translateY(-3px);box-shadow:0 15px 28px #55654d1b}
+.serum-navigation-item:nth-child(1){border-top:3px solid #6279a0}.serum-navigation-item:nth-child(2){border-top:3px solid #8cb99b}.serum-navigation-item:nth-child(3){border-top:3px solid #c2a37f}
+.serum-navigation-num{font:600 11px Georgia,serif;letter-spacing:.14em;color:#859487}
+.serum-navigation-item strong{font-family:'Noto Serif JP',serif;font-weight:600;font-size:clamp(16px,1.55vw,21px);line-height:1.55}
+.serum-navigation-item small{font-size:12px;color:#728174}
+.serum-navigation-arrow{position:absolute;right:18px;bottom:20px;font-size:24px;color:#698572}
+@media(max-width:700px){.serum-navigation{padding:30px 16px 36px}.serum-navigation-grid{grid-template-columns:1fr;gap:10px}.serum-navigation-item{padding:18px 42px 17px 19px}.serum-navigation-item strong{font-size:18px}}
+
+/* Post-hero discovery v3: editorial information design, no repeat product photos */
+.serum-navigation-v3{padding:60px 24px 62px!important;background:linear-gradient(160deg,#f9faf5 0%,#f4f7f0 55%,#fff9ee 100%)!important}
+.serum-navigation-v3 .serum-navigation-inner{max-width:1130px!important}
+.serum-navigation-heading{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:35px;align-items:end;text-align:left;margin-bottom:28px}
+.serum-navigation-v3 h2{font-size:clamp(25px,3.2vw,39px)!important;line-height:1.55!important;letter-spacing:.045em!important}
+.serum-navigation-v3 .serum-navigation-desc{font-size:14px;line-height:1.95;margin:13px 0 0}
+.serum-navigation-diagnosis{display:block;position:relative;padding:22px 42px 22px 22px;background:#607e68;border-radius:18px;color:#fff;text-decoration:none;box-shadow:0 12px 26px #546a5925}
+.serum-navigation-diagnosis>span:first-child{font-size:11px;letter-spacing:.08em;opacity:.86}
+.serum-navigation-diagnosis strong{display:block;font-size:15px;line-height:1.6;margin-top:5px}
+.serum-navigation-diagnosis .serum-navigation-arrow{position:absolute;bottom:22px;right:20px;color:#fff}
+.serum-navigation-v3 .serum-navigation-grid{gap:16px}
+.serum-navigation-v3 .serum-navigation-item{min-height:245px;padding:26px 25px 23px;overflow:hidden;background:#ffffffdf;border:1px solid #dfe7de;border-top-width:4px;box-shadow:0 12px 29px #526a5810}
+.serum-navigation-v3 .serum-navigation-item:nth-child(1){border-top-color:#8799bd}
+.serum-navigation-v3 .serum-navigation-item:nth-child(2){border-top-color:#90bba4}
+.serum-navigation-v3 .serum-navigation-item:nth-child(3){border-top-color:#c7ab8e}
+.serum-navigation-v3 .serum-navigation-item strong{font-size:clamp(19px,1.8vw,24px);line-height:1.65;z-index:1}
+.serum-navigation-symbol{position:absolute;top:20px;right:20px;font-size:56px;line-height:1;color:#9cb3ad55;pointer-events:none}
+.serum-navigation-v3 .serum-navigation-item:nth-child(1) .serum-navigation-symbol{color:#a7b5d165}
+.serum-navigation-v3 .serum-navigation-item:nth-child(3) .serum-navigation-symbol{color:#c8ad9265}
+.serum-navigation-product{margin-top:auto;z-index:1;font-size:13px;color:#698273;letter-spacing:.02em}
+.serum-navigation-foot{text-align:left;font-size:12px;color:#728276;margin:20px 0 0;line-height:1.8}
+.serum-navigation-v3 a:focus-visible{outline:3px solid #3c7151;outline-offset:4px}
+@media(max-width:800px){
+.serum-navigation-v3{padding:37px 17px 43px!important}
+.serum-navigation-heading{grid-template-columns:1fr;gap:20px;margin-bottom:22px}
+.serum-navigation-diagnosis{max-width:none}
+.serum-navigation-v3 .serum-navigation-grid{grid-template-columns:1fr;gap:11px}
+.serum-navigation-v3 .serum-navigation-item{min-height:170px;padding:21px 22px 20px}
+.serum-navigation-v3 .serum-navigation-item strong{font-size:20px}
+.serum-navigation-symbol{font-size:43px}
+}
