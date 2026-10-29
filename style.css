@@ -174,3 +174,44 @@
 .hero.hero-final .hero-product-line img{height:200px!important;max-height:200px!important}
 .hero.hero-final .hero-product-line img.bottle-small{height:130px!important;max-height:130px!important}
 }
+
+/* HERO PRODUCT DISPLAY v5 — consistent baseline, larger official bottles */
+@media(min-width:801px){
+.hero.hero-final .hero-product-stand{
+  left:0%!important;right:auto!important;bottom:-13px!important;
+  width:85%!important;height:315px!important;
+}
+.hero.hero-final .hero-product-line{
+  position:relative!important;display:flex!important;align-items:flex-end!important;
+  justify-content:flex-start!important;gap:0!important;
+  width:100%!important;height:100%!important;padding:0 0 6px!important;
+}
+.hero.hero-final .hero-product-line img{
+  flex:0 0 37%!important;width:37%!important;
+  height:315px!important;max-height:315px!important;
+  object-fit:contain!important;object-position:center bottom!important;
+  margin:0 -1.5%!important;align-self:flex-end!important;
+  vertical-align:bottom!important;
+}
+.hero.hero-final .hero-product-line img.bottle-small{
+  flex:0 0 28%!important;width:28%!important;
+  height:195px!important;max-height:195px!important;
+  margin:0 0 0 -1%!important;object-position:center bottom!important;
+}
+}
+@media(max-width:800px){
+.hero.hero-final .hero-product-stand{left:0%!important;bottom:-9px!important;width:91%!important;height:240px!important}
+.hero.hero-final .hero-product-line{
+  display:flex!important;align-items:flex-end!important;justify-content:flex-start!important;
+  gap:0!important;height:100%!important;padding:0 0 4px!important;
+}
+.hero.hero-final .hero-product-line img{
+  flex:0 0 37%!important;width:37%!important;height:235px!important;max-height:235px!important;
+  object-fit:contain!important;object-position:center bottom!important;
+  align-self:flex-end!important;margin:0 -1.5%!important;
+}
+.hero.hero-final .hero-product-line img.bottle-small{
+  flex:0 0 28%!important;width:28%!important;height:148px!important;max-height:148px!important;
+  margin:0 0 0 -1%!important;object-position:center bottom!important;
+}
+}
