@@ -90,3 +90,21 @@
 .hero-products-band .bottles img.bottle-small{width:20%!important;height:65%!important;max-height:130px!important}
 .quiz-intro-photo{box-shadow:0 16px 35px #5269541c}
 @media(max-width:800px){.hero.hero-final .hero-grid{display:flex!important;flex-direction:column!important;padding:30px 20px 28px!important;gap:22px!important}.hero.hero-final .hero-copy{width:100%}.hero.hero-final .hero-visual{height:310px!important;min-height:310px!important;width:100%}.hero.hero-final .hero-mood{object-position:70% center!important}.hero-products-band .bottles{height:170px}.hero-products-band .bottles img{max-height:170px!important}.hero-products-band .bottles img.bottle-small{max-height:110px!important}}
+
+/* Oct 29 corrected photo composition: product first */
+.hero.hero-final .hero-visual{position:relative;isolation:isolate;overflow:hidden;border-radius:28px;box-shadow:0 16px 40px #46664c21}
+.hero.hero-final .hero-mood{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;object-fit:cover!important;object-position:65% center!important;border-radius:28px!important}
+.hero.hero-final .hero-product-stand{position:absolute!important;z-index:4!important;left:5%!important;right:5%!important;bottom:4%!important;display:flex!important;align-items:center;flex-direction:column;background:#fffdf2db!important;border:1px solid #ffffffa8;border-radius:20px;padding:8px 16px 10px;backdrop-filter:blur(3px);box-shadow:0 12px 28px #40533c33}
+.hero-product-stand>p{margin:0!important;font:600 11px Georgia,serif;letter-spacing:.24em;color:#527058}
+.hero-product-line{display:flex!important;align-items:end!important;justify-content:space-around!important;gap:12px!important;width:100%!important;height:154px!important}
+.hero-product-line img{position:static!important;inset:auto!important;transform:none!important;display:block!important;width:30%!important;height:100%!important;max-height:155px!important;object-fit:contain!important;filter:drop-shadow(0 7px 9px #4d55472d)!important}
+.hero-product-line img.bottle-small{width:19%!important;height:71%!important;max-height:108px!important;align-self:end!important}
+.brand-photo-note .lotion-image-stage{width:clamp(110px,26%,240px);height:250px;flex:none;display:flex;align-items:center;justify-content:center;overflow:hidden;border-radius:20px;background:radial-gradient(ellipse at center,#fff6e8 0%,#f2e4cf 58%,#edf3e9 100%)}
+.brand-photo-note .lotion-image-stage img{display:block!important;width:100%!important;height:100%!important;max-height:none!important;object-fit:contain!important;mix-blend-mode:screen!important;filter:contrast(1.16) saturate(1.25)}
+#combine{background:radial-gradient(circle at 6% 13%,#f1e9d8,transparent 37%),radial-gradient(circle at 92% 75%,#dceade,transparent 42%),linear-gradient(135deg,#fffaf2,#f3f7ef)!important}
+.path-grid-editorial .path{min-height:285px;position:relative;overflow:hidden;padding:34px 28px;background:linear-gradient(155deg,#ffffffea,#f7faf4d9);border:1px solid #d6e5d7;border-radius:24px;box-shadow:0 16px 32px #59725d15}
+.path-grid-editorial .path::before{content:"";position:absolute;top:-47px;right:-48px;width:180px;height:180px;border:1px solid #bdceb9;border-radius:50%;box-shadow:0 0 0 24px #d8e8d529,0 0 0 49px #d6e7d31b;pointer-events:none}
+.path-grid-editorial .path:nth-child(1){border-top:5px solid #d0b48f}.path-grid-editorial .path:nth-child(2){border-top:5px solid #a1c5b1}.path-grid-editorial .path:nth-child(3){border-top:5px solid #c5ad98}
+.path-grid-editorial .path .eyebrow{font-size:13px}.path-grid-editorial .path strong{font-size:20px}
+#texture .hon-texture-generated{width:100%;height:auto!important;aspect-ratio:1/1;object-fit:cover!important;object-position:center!important}
+@media(max-width:800px){.hero.hero-final .hero-visual{height:385px!important;min-height:385px!important}.hero.hero-final .hero-product-stand{bottom:3%!important;padding:5px 10px!important}.hero-product-line{height:125px!important}.hero-product-line img{max-height:124px!important}.hero-product-line img.bottle-small{max-height:86px!important}.brand-photo-note .lotion-image-stage{width:118px;height:175px}.path-grid-editorial .path{min-height:0}}
