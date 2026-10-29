@@ -79,3 +79,19 @@ section{position:relative}
 .texture-real-grid-v2 figure:nth-child(2) img{object-position:center 56%!important}
 .texture-real-grid-v2 figure:nth-child(3) img{object-position:center 46%!important}
 @media(max-width:700px){.quiz-intro-v2{flex-direction:column;gap:10px}.quiz-intro-v2 .diagnosis-portrait-v3{max-width:100%;flex:auto}.quiz-intro-v2>p{text-align:center;flex:auto}.diagram-banner-v2{margin:10px auto 18px}}
+
+/* Editorial final pass: photo-first hero and useful photo-driven serum quiz */
+.hero.hero-luxe{min-height:700px;background:linear-gradient(110deg,rgba(255,250,241,.98) 0%,rgba(250,253,247,.94) 39%,rgba(234,247,232,.7) 100%),url('assets/editorial_skin_mood.webp') right 13% center/auto 100% no-repeat!important}
+.hero.hero-luxe:before{background:radial-gradient(ellipse at 80% 60%,rgba(255,255,255,.72),transparent 60%),repeating-radial-gradient(circle at 85% 35%,transparent 0 33px,rgba(255,255,255,.25) 34px 35px)!important}
+.hero.hero-luxe:after{background:linear-gradient(135deg,transparent 25%,#a2bda748 26% 27%,transparent 28%),linear-gradient(15deg,transparent 40%,#9aba9b35 41% 42%,transparent 43%)!important;opacity:.45}
+.hero.hero-luxe .bottles{background:radial-gradient(ellipse at center,rgba(255,255,255,.8) 0%,rgba(255,255,255,.1) 75%);border:1px solid #ffffff59;box-shadow:0 20px 75px #77947d2b;backdrop-filter:blur(3px);padding:28px 10px}
+.hero-kicker{display:inline-block;margin:0 0 12px;font-size:13px;letter-spacing:.16em;color:#53765d;font-weight:700;border-bottom:1px solid #b6c5ae;padding-bottom:8px}
+.hero.hero-luxe .cta{box-shadow:0 14px 26px #58725c40}
+.quiz-intro-final{display:grid!important;grid-template-columns:minmax(0,38%) 1fr!important;gap:0!important;align-items:stretch!important;max-width:1100px;margin:0 auto 28px;padding:0!important;border-radius:26px!important;background:linear-gradient(120deg,#fff9ef,#e9f2e8)!important;overflow:hidden!important;box-shadow:0 12px 35px #4d6b521a}
+.quiz-intro-final>img{width:100%;height:100%;min-height:245px;max-width:none!important;object-fit:cover;object-position:50% 40%;display:block}
+.quiz-intro-final>.quiz-intro-copy{display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:24px 36px}
+.quiz-intro-final .quiz-intro-copy h3{margin:6px 0 12px;font-size:clamp(25px,2.8vw,39px);font-family:'Noto Serif JP',serif;line-height:1.5}
+.quiz-intro-final .quiz-intro-copy p{font-size:15px;line-height:1.9;margin:0}
+.rempli-hand-crop{width:100%;aspect-ratio:1.23;background-image:url('assets/rempli_texture.webp');background-repeat:no-repeat;background-size:300% auto;background-position:50% 60%;background-color:#fff}
+.usage-photo-strip-v2 .rempli-hand-crop{aspect-ratio:1.35;background-size:300% auto;background-position:50% 61%}
+@media(max-width:760px){.hero.hero-luxe{min-height:0;background:linear-gradient(130deg,#fffaf2dd,#eaf4e8de),url('assets/editorial_skin_mood.webp') 80% center/auto 100% no-repeat!important}.hero.hero-luxe .bottles{padding:8px}.quiz-intro-final{grid-template-columns:1fr!important}.quiz-intro-final>img{height:245px;min-height:0;object-position:center 32%}.quiz-intro-final>.quiz-intro-copy{padding:23px}.rempli-hand-crop{aspect-ratio:1.5}}
