@@ -4,3 +4,8 @@
 ホニオールⅡ,ec_1201,https://d2w53g1q050m78.cloudfront.net/wwwtriplesuncojp/ec_assets/00493a9376a6d777f9aa4d63c692901e7cf708c3-original.png?1788405230=,https://www.triplesun.co.jp/shop/products/ec_1201,外部参照（画像ファイル未同梱）
 生成イメージカット,assets/editorial_skin_mood.webp,生成画像の人物部分のみ使用／製品効果を示さない
 オリジナル植物図解,assets/botanical_diagram.svg,作図した装飾イラスト／実物製品ではない
+
+assets/shiny_editorial_background.svg,独立生成SVG背景,商品容器は描写しない装飾素材
+assets/rempli_editorial_background.svg,独立生成SVG背景,商品容器は描写しない装飾素材
+assets/hon_editorial_background.svg,独立生成SVG背景,商品容器は描写しない装飾素材
+assets/hon_texture_illustration.webp,ホニオールⅡ透明液イメージ,生成画像・実物写真ではないホニオールⅡを手のひらに出す生成イメージ,assets/hon_application_illustration.webp,AI生成画像・実物写真ではない・使用手順セクション
