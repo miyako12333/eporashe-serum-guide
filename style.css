@@ -186,3 +186,29 @@
   .omega-gallery img{height:150px}
   .omega-gallery figcaption{font-size:11px;padding:10px}
 }
+
+/* v4 - single editorial skincare explanation, replaces repeated infographic/cards/photos */
+.care-editorial{margin:0 auto 30px;max-width:1050px;padding:42px 35px 25px;border-radius:28px;background:radial-gradient(ellipse at 12% 12%,#fffdf6,transparent 46%),linear-gradient(120deg,#eef4eb,#fcf5e9);border:1px solid #e5eadf}
+.care-heading{text-align:center;margin-bottom:28px}
+.care-heading>span{font:600 12px Georgia,serif;letter-spacing:.22em;color:#6c8773}
+.care-heading h3{font:500 clamp(26px,3vw,37px)/1.6 'Noto Serif JP',serif;margin:10px 0}
+.care-heading p{font-size:14px;color:#69766d;margin:0}
+.care-steps{display:grid;grid-template-columns:minmax(0,1fr) 25px minmax(0,1fr) 25px minmax(0,1fr);gap:9px;align-items:center}
+.care-stage{min-width:0;text-align:center;background:#ffffffb8;border:1px solid #e4e6dd;border-radius:19px;padding:14px 9px 18px;box-shadow:0 9px 22px #6c856719}
+.care-stage-media{height:174px;display:flex;justify-content:center;align-items:center;gap:2px;overflow:hidden}
+.care-stage-media>img{height:100%;max-width:95%;object-fit:contain;mix-blend-mode:normal!important;filter:none!important}
+.care-stage-serums img{width:45%;max-width:45%;object-fit:contain}
+.care-stage-n{font:600 10px Georgia,serif;letter-spacing:.15em;color:#889a87}
+.care-stage h4{font:500 20px 'Noto Serif JP',serif;margin:5px 0 3px}
+.care-stage p{font-size:12px;color:#637568;margin:0}
+.care-stage-finish{display:flex;flex-direction:column;gap:0;color:#9dab92}
+.care-stage-finish span:first-child{font-size:78px;line-height:1}
+.care-stage-finish span:last-child{font:italic 13px Georgia,serif;letter-spacing:.18em}
+.care-next{text-align:center;color:#ad9b7d;font-size:27px}
+.care-caution{text-align:center;font-size:11px;color:#7b8478;margin:18px 0 0}
+@media(max-width:680px){.care-editorial{padding:26px 14px 18px}.care-steps{grid-template-columns:1fr;gap:9px}.care-stage{display:grid;grid-template-columns:93px 1fr;grid-template-rows:auto auto auto;text-align:left;column-gap:14px;align-items:center;padding:13px}.care-stage-media{height:115px;grid-row:1/4}.care-stage-n{align-self:end}.care-stage h4{font-size:19px}.care-stage p{align-self:start}.care-next{transform:rotate(90deg);line-height:1;font-size:20px}.care-stage-finish span:first-child{font-size:48px}}
+
+/* Official cream/gel packshots: respect original labels and shapes */
+.care-stage-creams{display:flex;align-items:center;justify-content:center;gap:5px;background:radial-gradient(circle at 50% 80%,#f1ede7 0%,#ffffff00 67%)}
+.care-stage-creams img{display:block!important;width:49%!important;height:160px!important;max-width:49%!important;object-fit:contain!important;mix-blend-mode:normal!important;filter:none!important;opacity:1!important}
+@media(max-width:680px){.care-stage-creams img{height:110px!important}}
