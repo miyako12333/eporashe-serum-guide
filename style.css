@@ -91,127 +91,16 @@
 .quiz-intro-photo{box-shadow:0 16px 35px #5269541c}
 @media(max-width:800px){.hero.hero-final .hero-grid{display:flex!important;flex-direction:column!important;padding:30px 20px 28px!important;gap:22px!important}.hero.hero-final .hero-copy{width:100%}.hero.hero-final .hero-visual{height:310px!important;min-height:310px!important;width:100%}.hero.hero-final .hero-mood{object-position:70% center!important}.hero-products-band .bottles{height:170px}.hero-products-band .bottles img{max-height:170px!important}.hero-products-band .bottles img.bottle-small{max-height:110px!important}}
 
-/* Oct 29 corrected photo composition: product first */
-.hero.hero-final .hero-visual{position:relative;isolation:isolate;overflow:hidden;border-radius:28px;box-shadow:0 16px 40px #46664c21}
-.hero.hero-final .hero-mood{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;object-fit:cover!important;object-position:65% center!important;border-radius:28px!important}
-.hero.hero-final .hero-product-stand{position:absolute!important;z-index:4!important;left:5%!important;right:5%!important;bottom:4%!important;display:flex!important;align-items:center;flex-direction:column;background:#fffdf2db!important;border:1px solid #ffffffa8;border-radius:20px;padding:8px 16px 10px;backdrop-filter:blur(3px);box-shadow:0 12px 28px #40533c33}
-.hero-product-stand>p{margin:0!important;font:600 11px Georgia,serif;letter-spacing:.24em;color:#527058}
-.hero-product-line{display:flex!important;align-items:end!important;justify-content:space-around!important;gap:12px!important;width:100%!important;height:154px!important}
-.hero-product-line img{position:static!important;inset:auto!important;transform:none!important;display:block!important;width:30%!important;height:100%!important;max-height:155px!important;object-fit:contain!important;filter:drop-shadow(0 7px 9px #4d55472d)!important}
-.hero-product-line img.bottle-small{width:19%!important;height:71%!important;max-height:108px!important;align-self:end!important}
-.brand-photo-note .lotion-image-stage{width:clamp(110px,26%,240px);height:250px;flex:none;display:flex;align-items:center;justify-content:center;overflow:hidden;border-radius:20px;background:radial-gradient(ellipse at center,#fff6e8 0%,#f2e4cf 58%,#edf3e9 100%)}
-.brand-photo-note .lotion-image-stage img{display:block!important;width:100%!important;height:100%!important;max-height:none!important;object-fit:contain!important;mix-blend-mode:screen!important;filter:contrast(1.16) saturate(1.25)}
-#combine{background:radial-gradient(circle at 6% 13%,#f1e9d8,transparent 37%),radial-gradient(circle at 92% 75%,#dceade,transparent 42%),linear-gradient(135deg,#fffaf2,#f3f7ef)!important}
-.path-grid-editorial .path{min-height:285px;position:relative;overflow:hidden;padding:34px 28px;background:linear-gradient(155deg,#ffffffea,#f7faf4d9);border:1px solid #d6e5d7;border-radius:24px;box-shadow:0 16px 32px #59725d15}
-.path-grid-editorial .path::before{content:"";position:absolute;top:-47px;right:-48px;width:180px;height:180px;border:1px solid #bdceb9;border-radius:50%;box-shadow:0 0 0 24px #d8e8d529,0 0 0 49px #d6e7d31b;pointer-events:none}
-.path-grid-editorial .path:nth-child(1){border-top:5px solid #d0b48f}.path-grid-editorial .path:nth-child(2){border-top:5px solid #a1c5b1}.path-grid-editorial .path:nth-child(3){border-top:5px solid #c5ad98}
-.path-grid-editorial .path .eyebrow{font-size:13px}.path-grid-editorial .path strong{font-size:20px}
-#texture .hon-texture-generated{width:100%;height:auto!important;aspect-ratio:1/1;object-fit:cover!important;object-position:center!important}
-@media(max-width:800px){.hero.hero-final .hero-visual{height:385px!important;min-height:385px!important}.hero.hero-final .hero-product-stand{bottom:3%!important;padding:5px 10px!important}.hero-product-line{height:125px!important}.hero-product-line img{max-height:124px!important}.hero-product-line img.bottle-small{max-height:86px!important}.brand-photo-note .lotion-image-stage{width:118px;height:175px}.path-grid-editorial .path{min-height:0}}
-
-/* 2026-10-29 layout correction: three serums visible inside hero, no overlays */
-.hero.hero-final .hero-grid{align-items:center!important;min-height:0!important;padding-top:38px!important;padding-bottom:44px!important}
-.hero.hero-final .hero-visual{display:grid!important;grid-template-rows:330px 174px!important;gap:12px!important;align-items:stretch!important;overflow:visible!important;min-height:0!important;height:auto!important;border-radius:0!important;box-shadow:none!important;background:transparent!important}
-.hero.hero-final .hero-mood{position:relative!important;inset:auto!important;display:block!important;width:100%!important;height:330px!important;max-height:330px!important;object-fit:cover!important;object-position:65% 38%!important;border-radius:22px!important;box-shadow:none!important}
-.hero.hero-final .hero-product-stand{position:relative!important;inset:auto!important;left:auto!important;right:auto!important;top:auto!important;bottom:auto!important;z-index:3!important;display:flex!important;flex-direction:column!important;justify-content:center!important;height:174px!important;width:100%!important;min-height:0!important;padding:6px 15px 10px!important;box-shadow:0 6px 18px #39563e13!important;border:1px solid #dfe8d9!important;background:linear-gradient(100deg,#fdfcf6,#edf4e9)!important;backdrop-filter:none!important;border-radius:18px!important}
-.hero.hero-final .hero-product-line{height:139px!important;min-height:0!important;display:flex!important;align-items:end!important;justify-content:space-evenly!important;gap:12px!important}
-.hero.hero-final .hero-product-line img{position:static!important;display:block!important;height:136px!important;width:29%!important;max-height:136px!important;object-fit:contain!important;transform:none!important}
-.hero.hero-final .hero-product-line img.bottle-small{height:96px!important;width:19%!important;max-height:96px!important}
-.routine-visual-v4{max-width:1000px;margin:20px auto 34px;padding:42px 30px;display:grid;grid-template-columns:1fr 34px 1fr 34px 1fr;align-items:center;gap:12px;border:1px solid #dce7d7;border-radius:28px;background:radial-gradient(circle at 12% 12%,#fffdf4,transparent 40%),linear-gradient(120deg,#edf6ed,#fff5e8);box-shadow:0 12px 28px #7b8e7210}
-.routine-item{min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;text-align:center;padding:18px 6px;background:#ffffffa9;border-radius:20px;border:1px solid #e3e8dd}
-.routine-icon{display:grid;place-items:center;width:58px;height:58px;border-radius:50%;background:#dae9dc;color:#4b7058;font:italic 23px Georgia,serif}
-.routine-item:nth-of-type(3) .routine-icon{background:#f1e4cf}
-.routine-item b{font:600 20px 'Noto Serif JP',serif}
-.routine-item small{font-size:13px;line-height:1.6}
-.routine-arrow{font-size:24px;color:#ad9776;text-align:center}
-.brand-photo-note .lotion-image-stage{background:#f7eee0!important}
-.brand-photo-note .lotion-image-stage img{mix-blend-mode:lighten!important;filter:none!important;opacity:1!important}
-@media(max-width:800px){.hero.hero-final .hero-grid{padding-top:26px!important;padding-bottom:30px!important}.hero.hero-final .hero-visual{grid-template-rows:260px 150px!important;gap:10px!important;height:auto!important;min-height:0!important}.hero.hero-final .hero-mood{height:260px!important;max-height:260px!important}.hero.hero-final .hero-product-stand{height:150px!important;padding:5px 8px!important}.hero.hero-final .hero-product-line{height:120px!important}.hero.hero-final .hero-product-line img{height:112px!important;max-height:112px!important}.hero.hero-final .hero-product-line img.bottle-small{height:83px!important;max-height:83px!important}.routine-visual-v4{padding:15px 12px;grid-template-columns:1fr;gap:8px}.routine-item{padding:13px}.routine-arrow{transform:rotate(90deg);font-size:20px}.brand-photo-note .lotion-image-stage{width:120px!important;height:180px!important}}
-
-/* Hero portrait + floating official serums: 2026-10-29 */
-.hero.hero-final .hero-visual{display:block!important;position:relative!important;height:535px!important;min-height:535px!important;overflow:visible!important;border-radius:26px!important;background:transparent!important;box-shadow:none!important}
-.hero.hero-final .hero-mood{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;max-height:none!important;object-fit:cover!important;object-position:65% 42%!important;border-radius:26px!important;z-index:0!important}
-.hero.hero-final .hero-product-stand{position:absolute!important;left:3%!important;right:3%!important;top:auto!important;bottom:0!important;width:94%!important;height:245px!important;min-height:0!important;padding:0!important;display:block!important;background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;backdrop-filter:none!important;z-index:3!important;pointer-events:none!important}
-.hero.hero-final .hero-product-stand>p{display:none!important}
-.hero.hero-final .hero-product-line{position:relative!important;display:flex!important;align-items:flex-end!important;justify-content:space-evenly!important;gap:8px!important;width:100%!important;height:100%!important;padding:0 5% 12px!important;background:transparent!important}
-.hero.hero-final .hero-product-line img{position:relative!important;inset:auto!important;display:block!important;width:29%!important;height:240px!important;max-height:240px!important;object-fit:contain!important;transform:none!important;filter:drop-shadow(0 14px 9px rgba(26,37,26,.28))!important}
-.hero.hero-final .hero-product-line img.bottle-small{width:18%!important;height:160px!important;max-height:160px!important;align-self:flex-end!important}
-.hero.hero-final .hero-grid{align-items:center!important}
-@media(max-width:800px){
-.hero.hero-final .hero-visual{height:440px!important;min-height:440px!important}
-.hero.hero-final .hero-mood{height:100%!important;max-height:none!important;object-position:67% center!important}
-.hero.hero-final .hero-product-stand{height:177px!important;bottom:0!important}
-.hero.hero-final .hero-product-line{height:177px!important;padding:0 3% 8px!important}
-.hero.hero-final .hero-product-line img{height:172px!important;max-height:172px!important;width:30%!important}
-.hero.hero-final .hero-product-line img.bottle-small{height:112px!important;max-height:112px!important;width:20%!important}
-}
-
-/* 2026-10-29 hero art direction — priority order: product, portrait, copy */
-.hero.hero-final{overflow:visible!important;background:linear-gradient(118deg,#fffdf7 0%,#f0f6ee 65%,#f7f1e7 100%)!important}
-.hero.hero-final .hero-grid{display:grid!important;grid-template-columns:minmax(0, .9fr) minmax(0,1.1fr)!important;gap:34px!important;max-width:1260px!important;min-height:0!important;padding:35px 30px 55px!important;align-items:center!important}
-.hero.hero-final .hero-copy{z-index:5!important;max-width:530px!important}
-.hero.hero-final .hero-copy h1{font-size:clamp(37px,4.1vw,57px)!important;line-height:1.45!important;margin:18px 0 19px!important}
-.hero.hero-final .hero-kicker{margin:7px 0 7px!important}
-.hero.hero-final .hero-copy .serif{margin:0 0 9px!important}
-.hero.hero-final .hero-copy .muted{display:none!important}
-.hero.hero-final .hero-chips{margin:14px 0!important}
-.hero-quick-summary{font-size:13px!important;line-height:1.75!important;color:#627265!important;margin:10px 0 19px!important}
-.hero.hero-final .hero-copy .cta{margin-top:4px!important;padding:14px 28px!important;box-shadow:0 9px 20px #5e805b24!important}
-.hero.hero-final .hero-visual{position:relative!important;display:block!important;min-height:0!important;height:510px!important;overflow:visible!important;isolation:isolate!important;border:0!important;border-radius:28px!important;box-shadow:none!important}
-.hero.hero-final .hero-mood{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;max-height:none!important;object-fit:cover!important;object-position:64% 42%!important;border-radius:28px!important;z-index:0!important;box-shadow:0 18px 38px #506d511c!important}
-.hero.hero-final .hero-product-stand{position:absolute!important;inset:auto auto -25px 3%!important;top:auto!important;right:auto!important;bottom:-25px!important;left:3%!important;width:73%!important;height:300px!important;min-height:0!important;background:transparent!important;border:0!important;box-shadow:none!important;border-radius:0!important;backdrop-filter:none!important;padding:0!important;z-index:3!important;pointer-events:none!important;display:block!important}
-.hero.hero-final .hero-product-stand>p{display:none!important}
-.hero.hero-final .hero-product-line{display:flex!important;align-items:flex-end!important;justify-content:space-between!important;gap:3px!important;width:100%!important;height:100%!important;padding:0!important;background:transparent!important}
-.hero.hero-final .hero-product-line img{position:relative!important;inset:auto!important;width:37%!important;height:285px!important;max-height:285px!important;object-fit:contain!important;transform:none!important;filter:drop-shadow(0 13px 10px #1b392c62)!important}
-.hero.hero-final .hero-product-line img.bottle-small{width:25%!important;height:181px!important;max-height:181px!important;align-self:flex-end!important}
-@media(max-width:800px){
-.hero.hero-final .hero-grid{display:flex!important;flex-direction:column!important;gap:22px!important;padding:25px 20px 45px!important}
-.hero.hero-final .hero-copy{max-width:100%!important}
-.hero.hero-final .hero-copy h1{font-size:clamp(34px,8vw,44px)!important;margin:14px 0!important}
-.hero.hero-final .hero-visual{height:440px!important;min-height:440px!important;width:100%!important}
-.hero.hero-final .hero-mood{height:100%!important;object-position:65% 42%!important}
-.hero.hero-final .hero-product-stand{height:215px!important;width:77%!important;left:1%!important;bottom:-20px!important}
-.hero.hero-final .hero-product-line img{height:200px!important;max-height:200px!important}
-.hero.hero-final .hero-product-line img.bottle-small{height:130px!important;max-height:130px!important}
-}
-
-/* HERO PRODUCT DISPLAY v5 — consistent baseline, larger official bottles */
-@media(min-width:801px){
-.hero.hero-final .hero-product-stand{
-  left:0%!important;right:auto!important;bottom:-13px!important;
-  width:85%!important;height:315px!important;
-}
-.hero.hero-final .hero-product-line{
-  position:relative!important;display:flex!important;align-items:flex-end!important;
-  justify-content:flex-start!important;gap:0!important;
-  width:100%!important;height:100%!important;padding:0 0 6px!important;
-}
-.hero.hero-final .hero-product-line img{
-  flex:0 0 37%!important;width:37%!important;
-  height:315px!important;max-height:315px!important;
-  object-fit:contain!important;object-position:center bottom!important;
-  margin:0 -1.5%!important;align-self:flex-end!important;
-  vertical-align:bottom!important;
-}
-.hero.hero-final .hero-product-line img.bottle-small{
-  flex:0 0 28%!important;width:28%!important;
-  height:195px!important;max-height:195px!important;
-  margin:0 0 0 -1%!important;object-position:center bottom!important;
-}
-}
-@media(max-width:800px){
-.hero.hero-final .hero-product-stand{left:0%!important;bottom:-9px!important;width:91%!important;height:240px!important}
-.hero.hero-final .hero-product-line{
-  display:flex!important;align-items:flex-end!important;justify-content:flex-start!important;
-  gap:0!important;height:100%!important;padding:0 0 4px!important;
-}
-.hero.hero-final .hero-product-line img{
-  flex:0 0 37%!important;width:37%!important;height:235px!important;max-height:235px!important;
-  object-fit:contain!important;object-position:center bottom!important;
-  align-self:flex-end!important;margin:0 -1.5%!important;
-}
-.hero.hero-final .hero-product-line img.bottle-small{
-  flex:0 0 28%!important;width:28%!important;height:148px!important;max-height:148px!important;
-  margin:0 0 0 -1%!important;object-position:center bottom!important;
-}
-}
+/* Approved hero campaign photo: full composition, no second bottle layer */
+.hero.hero-final{background:linear-gradient(105deg,#faf9f3,#eef5eb)!important;overflow:visible!important}
+.hero.hero-final .hero-grid{display:grid!important;grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr)!important;gap:25px!important;max-width:1430px!important;min-height:0!important;align-items:center!important;padding:45px 32px 54px!important}
+.hero.hero-final .hero-copy{z-index:2!important}
+.hero.hero-final .hero-copy h1{font-size:clamp(38px,4.3vw,64px)!important;line-height:1.4!important;margin:18px 0 24px!important}
+.hero.hero-final .hero-visual{position:relative!important;display:block!important;min-height:0!important;height:auto!important;overflow:visible!important;box-shadow:0 20px 50px #59795a20!important;background:transparent!important;border-radius:26px!important;isolation:auto!important}
+.hero.hero-final .hero-visual:after,.hero.hero-final .hero-visual:before{content:none!important;display:none!important}
+.hero.hero-final .hero-campaign-image{position:static!important;display:block!important;width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:3/2!important;object-fit:contain!important;filter:none!important;transform:none!important;border-radius:26px!important}
+.hero.hero-final .hero-copy .muted{display:block!important;max-width:430px;margin:10px 0 16px!important}
+.hero.hero-final .hero-copy .hero-note,.hero.hero-final .hero-copy .spacer{display:none!important}
+.hero.hero-final .hero-fine-note{font-size:14px;color:#617566;line-height:1.8;margin:12px 0 19px!important}
+.hero.hero-final .hero-copy .cta{display:inline-flex!important;margin-top:6px!important;padding:15px 26px!important}
+@media(max-width:800px){.hero.hero-final .hero-grid{display:flex!important;flex-direction:column!important;gap:20px!important;padding:30px 18px 35px!important}.hero.hero-final .hero-visual{width:100%!important;height:auto!important;min-height:0!important}.hero.hero-final .hero-campaign-image{height:auto!important;max-height:none!important;aspect-ratio:3/2!important}.hero.hero-final .hero-copy h1{font-size:clamp(35px,7.8vw,50px)!important;margin:12px 0 18px!important}}
