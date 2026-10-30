@@ -259,3 +259,33 @@
 .ev-quotes{padding:20px 19px 4px;display:grid;gap:12px;flex:1}.ev-quote{margin:0;background:#fafbf8;border-radius:15px;border-left:3px solid var(--accent);padding:15px 14px 13px}.ev-quote p{font-family:'Noto Serif JP',serif;font-size:14px;line-height:1.85;margin:0 0 12px;color:#3c4b42}.ev-quote footer{font-size:11px;color:#758279;line-height:1.5}.ev-source{display:block;margin:18px 20px 24px;align-self:flex-start;font-size:13px;font-weight:700;color:#49715a;border-bottom:1px solid #86a490;text-decoration:none;padding-bottom:4px}.ev-footnote{font-size:12px;color:#7b857d;line-height:1.9;margin:29px auto 0;max-width:1090px}
 @media(max-width:1040px){.ev-products{grid-template-columns:1fr;max-width:700px}.ev-product-main{grid-template-columns:34% 66%;min-height:210px}.ev-photo{height:190px}.ev-quotes{grid-template-columns:1fr 1fr}.ev-intro h3{font-size:26px}}
 @media(max-width:600px){.ev-section{padding:54px 0 60px!important}.ev-product-main{grid-template-columns:39% 61%;min-height:192px;padding:13px 9px}.ev-photo{height:166px}.ev-intro h3{font-size:21px}.ev-intro>p{font-size:12px}.ev-quotes{grid-template-columns:1fr;padding:14px 14px 0}.ev-quote{padding:13px}.ev-quote p{font-size:14px}.ev-rating strong{font-size:30px}.ev-source{margin:18px 15px 20px}}
+
+
+/* Direct GitHub update: editorial serum testimonials, 2026-10-30 */
+#reviews.ev-section{padding:65px 0 80px!important;background:linear-gradient(#fffefa,#fffaf3)!important;isolation:isolate}
+#reviews>.container{width:min(94%,1120px)!important;max-width:1120px!important}
+#reviews .ev-heading{margin:0 auto 26px!important;max-width:100%!important}
+#reviews .ev-heading h2{font-size:clamp(28px,3.5vw,43px)!important}
+#reviews .ev-products{display:flex!important;flex-direction:column!important;gap:17px!important;max-width:1120px!important}
+#reviews .ev-product{display:grid!important;grid-template-columns:minmax(295px,38%) 1fr!important;grid-template-rows:1fr auto!important;gap:0!important;position:relative!important;border:1px solid #ffffffcf!important;border-radius:22px!important;overflow:hidden!important;box-shadow:0 12px 35px #314e401c!important;background:linear-gradient(105deg,var(--pale),var(--pale2))!important;--accent:#6f99c4}
+#reviews .ev-product.ev-blue{--accent:#6f99c4;--pale:#dbeafe;--pale2:#f3f9ff}
+#reviews .ev-product.ev-green{--accent:#659d70;--pale:#e1f2db;--pale2:#f4faec}
+#reviews .ev-product.ev-gold{--accent:#bb9159;--pale:#ffe9d5;--pale2:#fff8eb}
+#reviews .ev-product::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.84;background:radial-gradient(circle at 6% 13%,#fff 0%,#ffffff00 29%),radial-gradient(circle at 94% 19%,#fff9 0%,transparent 15%),radial-gradient(circle at 21% 79%,#fff8 0%,transparent 15%);z-index:0}
+#reviews .ev-product::after{content:"✦　✦";position:absolute;pointer-events:none;left:12px;bottom:10px;color:var(--accent);font-size:24px;opacity:.25}
+#reviews .ev-product-main{grid-column:1;grid-row:1/3;position:relative;z-index:1;display:grid!important;grid-template-columns:47% 53%!important;gap:2px!important;align-items:center!important;min-height:340px!important;background:transparent!important;border:0!important;padding:18px 10px 18px 7px!important}
+#reviews .ev-photo{height:270px!important;min-width:0!important}
+#reviews .ev-photo img{height:100%!important;width:100%!important;object-fit:contain!important;filter:drop-shadow(0 12px 7px #45544a24)!important}
+#reviews .ev-intro{min-width:0!important}
+#reviews .ev-intro h3{font-size:clamp(23px,2.3vw,31px)!important;line-height:1.35!important;word-break:keep-all!important;overflow-wrap:normal!important;margin:9px 0!important}
+#reviews .ev-intro>p{font-size:13px!important}
+#reviews .ev-rating strong{font-size:43px!important}
+#reviews .ev-quotes{grid-column:2;grid-row:1;position:relative;z-index:1;display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important;align-content:center!important;padding:21px 18px 0 4px!important}
+#reviews .ev-quote{display:flex!important;flex-direction:column!important;justify-content:space-between!important;margin:0!important;min-height:202px!important;border:1px solid #fffffff0!important;border-radius:16px!important;background:#ffffffeb!important;box-shadow:0 7px 20px #36574b12!important;padding:17px 14px!important}
+#reviews .ev-quote::before{content:"“";font:italic 42px Georgia,serif;color:var(--accent);line-height:.7;margin-bottom:8px;opacity:.8}
+#reviews .ev-quote p{font-size:clamp(13px,1.25vw,16px)!important;line-height:1.8!important;flex:1;margin:0 0 14px!important}
+#reviews .ev-quote footer{font-size:11px!important;line-height:1.6!important;border-top:1px solid #dbe6dd!important;padding-top:9px!important}
+#reviews .ev-source{grid-column:2;grid-row:2;position:relative;z-index:2;justify-self:end!important;margin:9px 20px 19px!important;align-self:end!important;background:var(--accent)!important;color:#fff!important;font-size:13px!important;line-height:1.5!important;font-weight:600!important;border:0!important;border-radius:50px!important;padding:11px 21px!important;text-decoration:none!important}
+#reviews .ev-source:hover{filter:brightness(.93)}
+@media(max-width:930px){#reviews .ev-product{grid-template-columns:1fr!important;grid-template-rows:auto auto auto!important}#reviews .ev-product-main{grid-column:1!important;grid-row:1!important;grid-template-columns:35% 65%!important;min-height:200px!important}#reviews .ev-photo{height:190px!important}#reviews .ev-quotes{grid-column:1!important;grid-row:2!important;padding:0 18px!important}#reviews .ev-source{grid-column:1!important;grid-row:3!important}}
+@media(max-width:580px){#reviews .ev-product-main{grid-template-columns:43% 57%!important;min-height:172px!important;padding:12px 8px!important}#reviews .ev-photo{height:164px!important}#reviews .ev-intro h3{font-size:22px!important}#reviews .ev-quotes{grid-template-columns:1fr!important;padding:0 13px!important}#reviews .ev-quote{min-height:0!important;padding:14px!important}#reviews .ev-quote p{font-size:14px!important}#reviews .ev-source{margin:13px!important}#reviews .ev-heading h2{font-size:28px!important}}
