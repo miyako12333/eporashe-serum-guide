@@ -212,3 +212,32 @@
 .care-stage-creams{display:flex;align-items:center;justify-content:center;gap:5px;background:radial-gradient(circle at 50% 80%,#f1ede7 0%,#ffffff00 67%)}
 .care-stage-creams img{display:block!important;width:49%!important;height:160px!important;max-width:49%!important;object-fit:contain!important;mix-blend-mode:normal!important;filter:none!important;opacity:1!important}
 @media(max-width:680px){.care-stage-creams img{height:110px!important}}
+
+/* Visual enhancement for authentic buyer testimonials — six original reviews preserved. */
+.customer-voices{position:relative;isolation:isolate;background:linear-gradient(145deg,#f6f7ef 0%,#fffaf1 53%,#f4f6f1 100%);overflow:hidden}
+.customer-voices:before{content:"";position:absolute;top:45px;right:max(-3vw,-45px);width:clamp(170px,23vw,340px);height:390px;background:url("assets/reviews_generated_botanical.webp") center/contain no-repeat;opacity:.47;pointer-events:none;z-index:-1;border-radius:42%}
+.customer-voices .section-head{position:relative;z-index:1;margin-bottom:20px}
+.customer-voices .section-head .num{letter-spacing:.28em;color:#a18e6e}
+.customer-voices .section-head h2{font-size:clamp(30px,4vw,51px)}
+.voice-art-row{max-width:880px;margin:0 auto 26px;display:grid;grid-template-columns:1fr 1fr;align-items:center;background:linear-gradient(110deg,#fffdf7e8,#e9f0e9aa);border:1px solid #e1e6da;border-radius:23px;min-height:175px;overflow:hidden;padding:15px 30px}
+.voice-art-copy{text-align:left;padding-left:15px;display:flex;flex-direction:column;align-items:flex-start;gap:6px}
+.voice-art-copy strong{font-family:'Noto Serif JP',serif;font-size:clamp(16px,2vw,24px);line-height:1.55;font-weight:500;color:#385448}
+.voice-art-copy small{color:#a18e6e;font:italic 12px Georgia,serif;letter-spacing:.04em}
+.voice-art-rule{display:block;width:35px;height:1px;background:#baa87a;margin-bottom:6px}
+.voice-art-products{display:flex;align-items:center;justify-content:center;gap:10px;height:163px}
+.voice-art-products img{display:block;max-width:29%;height:146px;object-fit:contain;filter:drop-shadow(0 8px 8px #52654b24)}
+.voice-grid{gap:20px}
+.voice-card{position:relative;overflow:hidden;min-height:244px;padding:28px 135px 27px 30px;border-top:3px solid #c8d7dc;background:linear-gradient(120deg,#fffefa 70%,#f1f7f6 100%);box-shadow:0 14px 28px #475b4010;gap:11px}
+.voice-card.voice-blue{border-top-color:#93b4d4;background:linear-gradient(120deg,#fffefa 68%,#eaf2fa)}
+.voice-card.voice-green{border-top-color:#98c7a6;background:linear-gradient(120deg,#fffefa 68%,#eaf5ec)}
+.voice-card.voice-gold{border-top-color:#d6be93;background:linear-gradient(120deg,#fffefa 68%,#f7f0e0)}
+.voice-card .voice-product-visual{position:absolute;right:14px;top:35px;width:105px;height:165px;display:flex;align-items:center;justify-content:center;pointer-events:none}
+.voice-product-visual:before{content:"";position:absolute;width:108px;height:108px;border-radius:50%;background:#a4becd20;z-index:0}
+.voice-gold .voice-product-visual:before{background:#d9caa627}.voice-green .voice-product-visual:before{background:#a5c8a326}
+.voice-product-visual img{position:relative;max-width:100%;max-height:158px;object-fit:contain;filter:drop-shadow(0 9px 6px #394b3120);z-index:1}
+.voice-card .voice-mark{position:absolute;top:6px;right:112px;color:#aebca863;font:italic 65px Georgia,serif;pointer-events:none}
+.voice-card .voice-item,.voice-card blockquote,.voice-card .voice-author,.voice-card a{position:relative;z-index:2}
+.voice-card blockquote{font-size:clamp(16px,1.5vw,18px);line-height:1.95}
+.voice-summary-top{background:#ffffff9e;border-radius:12px;padding:12px 15px;margin-top:0!important}
+@media(max-width:900px){.voice-card{padding-right:112px}.voice-card .voice-product-visual{right:7px;width:90px}.voice-card .voice-mark{right:92px}}
+@media(max-width:600px){.customer-voices:before{top:55px;opacity:.19}.voice-art-row{grid-template-columns:1fr 1fr;padding:12px;min-height:122px}.voice-art-copy{padding-left:3px}.voice-art-copy small{font-size:9px}.voice-art-products{height:110px;gap:2px}.voice-art-products img{height:99px;max-width:31%}.voice-card{padding:21px 93px 23px 20px;min-height:214px}.voice-card .voice-product-visual{width:77px;right:7px;top:39px;height:130px}.voice-product-visual img{max-height:125px}.voice-product-visual:before{width:76px;height:76px}.voice-card .voice-mark{right:72px;font-size:52px}.voice-card blockquote{font-size:15px}.voice-card .voice-item,.voice-card .voice-author,.voice-card a{font-size:11px}}
